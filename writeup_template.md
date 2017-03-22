@@ -32,7 +32,12 @@ Fifth, I removed some unwanted lines by the slope of lines, and grouping remaine
 Sixth, I adjust left line and right line's length to make them even.
 Seventh, I drawed lines to image.
 
-In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
+In order to implement above pipline, I wrote several functions include: 
+filter_lines: filter out unwanted lines by slope
+color_of_interest: detect white and yellow color
+equal_lines: modify two input lines to make them even
+get_slope: calculate slope of input line
+combine_lines: combine input lines into left line and right line
 
 If you'd like to include images to show how the pipeline works, here is how to include an image: 
 
@@ -40,15 +45,9 @@ If you'd like to include images to show how the pipeline works, here is how to i
 
 
 ###2. Identify potential shortcomings with your current pipeline
-
-
-One potential shortcoming would be what would happen when ... 
-
-Another shortcoming could be ...
-
+One potential shortcoming would be what would happen when some detected lines can not be removed by ROI and slope filter, that would generate inaccurate results.
+Also current algorithm does not consider more difficult cases, such as shadow, rain, dark enviroment and light reflection.
 
 ###3. Suggest possible improvements to your pipeline
-
-A possible improvement would be to ...
-
-Another potential improvement could be to ...
+A possible improvement would be to use more advanced filtering algorithm, such as combine both slope and distance to coordinate origin to filter unwanted lines.
+Another potential improvement could be to use HSV color space to remove shadow and lighting effects.
