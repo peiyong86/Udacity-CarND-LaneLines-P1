@@ -15,7 +15,10 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/grayscale.jpg "Grayscale"
+[image_gray]: ./examples/grayscale.jpg "Grayscale"
+[image_colordetect]: ./examples/cimage.jpg "Color detetion"
+[image_combinedlines]: ./examples/combinedlines.jpg "Combined lines"
+[image_result]: ./examples/result.jpg "result"
 
 ---
 
@@ -39,9 +42,12 @@ equal_lines: modify two input lines to make them even
 get_slope: calculate slope of input line
 combine_lines: combine input lines into left line and right line
 
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
+This is images of some step, for more detailed decription, please review the code: 
 
-![alt text][image1]
+![alt text][image_gray]
+![alt text][image_colordetect]
+![alt text][image_combinedlines]
+![alt text][image_result]
 
 
 ###2. Identify potential shortcomings with your current pipeline
