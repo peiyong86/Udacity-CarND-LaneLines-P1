@@ -3,8 +3,8 @@
 
 <img src="examples/laneLines_thirdPass.jpg" width="480" alt="Combined Image" />
 
-###This is Udacity's Self-Driving Car NanoDegree Lesson 2 final Project.
-###P1.ipynb is the project code and writeup.md is a brief explaination of my solution.
+### This is Udacity's Self-Driving Car NanoDegree Lesson 2 final Project, this repository is for my own submission to the project.
+### P1.ipynb is the project code and writeup.md is a brief explaination of my solution.
 
 Overview
 ---
